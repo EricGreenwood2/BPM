@@ -2,7 +2,7 @@ __Getting started__
 
   * [Install Anaconda with Python 3.x (click to download)](https://www.anaconda.com/download/)
   
-  * Open Anaconda prompt and change to rotor_noise installation directory
+  * Open Anaconda prompt and change to the broadband installation directory
   
   * Create conda environment with required dependencies installed `conda env create -f environment.yml`
   
