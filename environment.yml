@@ -1,0 +1,9 @@
+name: broadband
+dependencies:
+  - blas
+  - scipy
+  - matplotlib
+  - cython
+  - pip
+  - pip:
+     - acoustics
