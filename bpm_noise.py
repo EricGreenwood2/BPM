@@ -560,7 +560,7 @@ def single_frequency_tbl_noise(f, chord, span, alpha_e, chord_reynolds_number, s
                                                                                        chord_reynolds_number) + \
                 tbl_amplitude_function_k2(alpha_e, mach, chord_reynolds_number)
 
-    # If angle of attack exceeds a threshhold, use seperation noise model
+    # If angle of attack exceeds a threshhold, use separation noise model
     alpha_e_0 = np.where(tbl_gamma0(mach) < 12.5, tbl_gamma0(mach), 12.5)
 
     spl_pressure_side[alpha_e > alpha_e_0] = -np.Inf
